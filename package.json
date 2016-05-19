@@ -1,0 +1,17 @@
+{
+  "name": "request_problem",
+  "version": "1.0.0",
+  "description": "Example of parsing issue with request",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jenni Kissinger",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "restify": "^4.0.4",
+    "superagent": "^1.8.3"
+  }
+}
