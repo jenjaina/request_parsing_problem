@@ -1,3 +1,5 @@
+## Project
+
 This example project shows an issue with parsing large arrays when using the `request` module. It demostrates that sending a large array (>21 items) in a query will result in incorrect parsing of the array.
 
 Example input:
@@ -13,3 +15,8 @@ Example output:
 ```
 
 The example demostrates that `superagent` correctly parses the large array.
+
+## To run
+
+    npm install
+    npm start
